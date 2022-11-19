@@ -1,4 +1,4 @@
-# go_grpc
+# Simplified GRPC tutorial in GO
 
 
 I've made an Extremely Simplified grpc tutorial inspired by:
