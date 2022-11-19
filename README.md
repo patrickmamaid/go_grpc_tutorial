@@ -71,6 +71,8 @@ Exercise:
 
 
 Other helpful resources:
+
+
 https://grpc.io/blog/vendasta/
 https://stackoverflow.com/questions/43682366/how-is-grpc-different-from-rest
 https://thenewstack.io/grpc-lean-mean-communication-protocol-microservices/
