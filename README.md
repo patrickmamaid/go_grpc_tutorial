@@ -33,9 +33,10 @@ while true; do go run client.go; done
 ```
 BREW:
 brew install protobuf
-(libprotoc 3.21.9 as of Fri 18 Nov 2022 16:29:04 PST)
+
 check:
 protoc --version
+(libprotoc 3.21.9 as of Fri 18 Nov 2022 16:29:04 PST)
 
 
 check envvars:
