@@ -1,7 +1,7 @@
-# go_grpc
+# Simplified GRPC tutorial in GO
 
 
-I've made an Extremely Simplified grpc tutorial inspired by:
+## I've made an Extremely Simplified grpc tutorial inspired by:
 https://developers.google.com/protocol-buffers/docs/gotutorial 
 
 Hopefully I've added enough helpful comments in the code 
@@ -16,11 +16,11 @@ The most important files to look at are:
 
 run it!
 ```
-term 1:
+terminal 1:
 go run server.go
 
 
-term 2:
+terminal 2:
 while true; do go run client.go; done
 (CTRL C to exit)
 
@@ -29,7 +29,7 @@ while true; do go run client.go; done
 ![img.png](img.png)
 
 
-dev setup for rebuilding:
+## Dev setup for rebuilding:
 ```
 BREW:
 brew install protobuf
@@ -64,13 +64,15 @@ protoc --go_out=chat --go_opt=paths=source_relative \
     
 ```
 
-Exercise:
+## Exercise:
 - You should try modifying the message
 - Add another method/feature and re run protoc  
 
 
 
-Other helpful resources:
+## Other helpful resources:
+
+
 https://grpc.io/blog/vendasta/
 https://stackoverflow.com/questions/43682366/how-is-grpc-different-from-rest
 https://thenewstack.io/grpc-lean-mean-communication-protocol-microservices/
