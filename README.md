@@ -16,11 +16,11 @@ The most important files to look at are:
 
 run it!
 ```
-term 1:
+terminal 1:
 go run server.go
 
 
-term 2:
+terminal 2:
 while true; do go run client.go; done
 (CTRL C to exit)
 
