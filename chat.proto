@@ -1,11 +1,20 @@
 syntax = "proto3" ;
 
+option go_package = "./chat";
+
+
 package chat;
 
+// this will become a >>>
+// type Message struct{
+//    body String
+// }
+// after protoc is run
 message Message{
   string body = 1;
 }
 
+// this will be used by both server and client, but it will only be called in one place: client.go
 service ChatService {
   rpc SayHello(Message) returns (Message) {}
 }
