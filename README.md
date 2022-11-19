@@ -1,7 +1,7 @@
 # Simplified GRPC tutorial in GO
 
 
-I've made an Extremely Simplified grpc tutorial inspired by:
+## I've made an Extremely Simplified grpc tutorial inspired by:
 https://developers.google.com/protocol-buffers/docs/gotutorial 
 
 Hopefully I've added enough helpful comments in the code 
@@ -29,7 +29,7 @@ while true; do go run client.go; done
 ![img.png](img.png)
 
 
-dev setup for rebuilding:
+## Dev setup for rebuilding:
 ```
 BREW:
 brew install protobuf
@@ -64,13 +64,13 @@ protoc --go_out=chat --go_opt=paths=source_relative \
     
 ```
 
-Exercise:
+## Exercise:
 - You should try modifying the message
 - Add another method/feature and re run protoc  
 
 
 
-Other helpful resources:
+## Other helpful resources:
 
 
 https://grpc.io/blog/vendasta/
