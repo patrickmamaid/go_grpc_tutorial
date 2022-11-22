@@ -22,7 +22,8 @@ func main() {
 		log.Fatalf("Failed to listen on port 9000: %v", err)
 	}
 
-	//init the (blank struct) chat "server"
+	// init the (blank struct) chat "server"
+	// this has methods like SayHello attached to it
 	s := chat.Server{}
 
 	// the actual grpc server grpcServer
