@@ -64,6 +64,51 @@ protoc --go_out=chat --go_opt=paths=source_relative \
     chat.proto
     
 ```
+if you've installed go through homebrew:
+
+```
+pm@m1 rclient % go env
+GO111MODULE=""
+GOARCH="arm64"
+GOBIN=""
+GOCACHE="/Users/pm/Library/Caches/go-build"
+GOENV="/Users/pm/Library/Application Support/go/env"
+GOEXE=""
+GOEXPERIMENT=""
+GOFLAGS=""
+GOHOSTARCH="arm64"
+GOHOSTOS="darwin"
+GOINSECURE=""
+GOMODCACHE="/Users/pm/go/pkg/mod"
+GONOPROXY=""
+GONOSUMDB=""
+GOOS="darwin"
+GOPATH="/Users/pm/go"
+GOPRIVATE=""
+GOPROXY="https://proxy.golang.org,direct"
+GOROOT="/opt/homebrew/Cellar/go/1.19.3/libexec"
+GOSUMDB="sum.golang.org"
+GOTMPDIR=""
+GOTOOLDIR="/opt/homebrew/Cellar/go/1.19.3/libexec/pkg/tool/darwin_arm64"
+GOVCS=""
+GOVERSION="go1.19.3"
+GCCGO="gccgo"
+AR="ar"
+CC="clang"
+CXX="clang++"
+CGO_ENABLED="1"
+GOMOD="/Users/pm/projects/k8smd/go.mod"
+GOWORK=""
+CGO_CFLAGS="-g -O2"
+CGO_CPPFLAGS=""
+CGO_CXXFLAGS="-g -O2"
+CGO_FFLAGS="-g -O2"
+CGO_LDFLAGS="-g -O2"
+PKG_CONFIG="pkg-config"
+GOGCCFLAGS="-fPIC -arch arm64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/_c/c1qdzth90450b184pskhj65h0000gn/T/go-build3800080048=/tmp/go-build -gno-record-gcc-switches -fno-common"
+```
+
+
 
 ## Exercise:
 - You should try modifying the message
